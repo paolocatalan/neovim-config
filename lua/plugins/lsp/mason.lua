@@ -28,7 +28,7 @@ return {
                     "tailwindcss",
                     "lua_ls",
                     "emmet_language_server",
-                    "phpactor",
+                 -- "phpactor",
                     "intelephense",
                 },
                 -- auto-install configured servers (with lspconfig)

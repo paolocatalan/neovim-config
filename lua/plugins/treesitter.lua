@@ -20,8 +20,10 @@ return {
                     "php",
                     "html",
                     "css",
-                    "scss",
                     "phpdoc",
+                    "markdown",
+                    "markdown_inline",
+                    "python"
                 },
 
                 incremental_selection = {
