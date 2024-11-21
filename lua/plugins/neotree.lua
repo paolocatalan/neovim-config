@@ -17,6 +17,10 @@ return {
                         hide_gitignored = false,
                     },
                 },
+                source_selector = {
+                    winbar = false,
+                    statusline = false
+                }
             })
             vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>', {})
             vim.keymap.set('n', '<C-t>', ':Neotree filesystem reveal left toggle<CR>', {})
