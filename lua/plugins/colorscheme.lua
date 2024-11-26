@@ -3,11 +3,9 @@ return {
         "folke/tokyonight.nvim",
         priority = 1000,
 
-        config = function ()
-            local bg_dark = "#1f2335"
-
+        config = function()
             require("tokyonight").setup({
-                style="night",
+                style = "night",
                 terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
                 styles = {
                     -- Style to be applied to different syntax groups
@@ -18,11 +16,8 @@ return {
                     sidebars = "dark", -- style for sidebars, see below
                     floats = "dark", -- style for floating windows
                 },
-                on_colors = function (colors)
-                    colors.bg_float = bg_dark
-                end,
             })
-            vim.cmd[[colorscheme tokyonight]]
-        end
+            vim.cmd([[colorscheme tokyonight]])
+        end,
     }
 }
